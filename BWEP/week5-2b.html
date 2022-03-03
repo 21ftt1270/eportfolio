@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>wk5</title>
+	<style type="text/css">
+		.red{color: red} /*if dua p dlm div*/
+		/*p{color: red}*/ /*if semua p*/
+		/*div p{color: red;}*/
+		/*div>p{color: red;} /*this is only affecting for p in div not span or other*/
+		/*div>h2{color: red;}*/
+		/*span>p{color: red;}*/
+		/*div>h2, span>p {color: red;}*/ /*very convenient for use multiple selection*/
+		.red{color: red;} /* kind of like select to use*/
+		/*changing here will not affect html structure*/
+
+	</style>
+</head>
+<body>
+<div>
+	<h2 class="red">I am H2</h2>
+	<h3>Im a h3</h3>	
+	<h3>yet another h3</h3>
+	<p class="red">Im a P in a div</p>
+	<p class="red">Im also P in a div</p>
+	<span>
+		<p class="red">I am a child of span</p>
+	</span>
+</div>
+<p>im outside div</p>
+</head>
+<body>
+
+</body>
+</html>
